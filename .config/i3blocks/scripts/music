@@ -1,0 +1,16 @@
+MPC="$(mpc 2>&1)"
+MPC_ERROR="$(echo "$MPC" | awk '/error/ { print $0 }')"
+if [[ "$MPC_ERROR" = '' ]]; then
+    MPC_STATUS="$(echo "$MPC" | awk '/\[/ { print $1 }')"
+    MPC_SONG="$(echo "$MPC" | head -1)"
+    if [[ "$MPC_STATUS" = '[playing]' ]]; then
+        echo "$LABEL $MPC_SONG"
+        #LABEL="  "
+    #else
+        #LABEL="  "
+    fi
+    #echo "$LABEL $MPC_SONG"
+    exit 0
+else
+    exit -1
+fi

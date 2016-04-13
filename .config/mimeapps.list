@@ -1,0 +1,29 @@
+[Added Associations]
+text/plain=org.gnome.gedit.desktop;sublime-text.desktop;
+x-scheme-handler/http=userapp-Firefox-3215DY.desktop;
+x-scheme-handler/https=userapp-Firefox-3215DY.desktop;
+x-scheme-handler/ftp=userapp-Firefox-3215DY.desktop;
+x-scheme-handler/chrome=userapp-Firefox-3215DY.desktop;
+text/html=userapp-Firefox-3215DY.desktop;
+application/x-extension-htm=userapp-Firefox-3215DY.desktop;
+application/x-extension-html=userapp-Firefox-3215DY.desktop;
+application/x-extension-shtml=userapp-Firefox-3215DY.desktop;
+application/xhtml+xml=userapp-Firefox-3215DY.desktop;
+application/x-extension-xhtml=userapp-Firefox-3215DY.desktop;
+application/x-extension-xht=userapp-Firefox-3215DY.desktop;
+image/jpeg=ahoviewer.desktop;feh.desktop;
+image/png=feh.desktop;ahoviewer.desktop;
+application/pdf=zathura-pdf-mupdf.desktop;
+
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-3215DY.desktop
+x-scheme-handler/https=userapp-Firefox-3215DY.desktop
+x-scheme-handler/ftp=userapp-Firefox-3215DY.desktop
+x-scheme-handler/chrome=userapp-Firefox-3215DY.desktop
+text/html=userapp-Firefox-3215DY.desktop
+application/x-extension-htm=userapp-Firefox-3215DY.desktop
+application/x-extension-html=userapp-Firefox-3215DY.desktop
+application/x-extension-shtml=userapp-Firefox-3215DY.desktop
+application/xhtml+xml=userapp-Firefox-3215DY.desktop
+application/x-extension-xhtml=userapp-Firefox-3215DY.desktop
+application/x-extension-xht=userapp-Firefox-3215DY.desktop

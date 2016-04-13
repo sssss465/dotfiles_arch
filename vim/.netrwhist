@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/sys/devices/platform/applesmc.768/leds/smc::kbd_backlight'
+let g:netrw_dirhist_2='/etc/systemd/system'
+let g:netrw_dirhist_3='/etc/xdg/openbox'
+let g:netrw_dirhist_4='/home/nobu'
+let g:netrw_dirhist_5='/home/nobu/.config/ranger'
+let g:netrw_dirhist_6='/etc/netctl'
+let g:netrw_dirhist_7='/home/nobu/.config/ranger'
+let g:netrw_dirhist_8='/home/nobu/.vim'

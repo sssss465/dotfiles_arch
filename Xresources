@@ -1,0 +1,110 @@
+Xft.lcdfilter: lcddefault
+Xft.antialias: true
+Xft.autohint: 0
+Xft.hinting: true
+Xft.hintstyle: hintsight
+Xft.rgba: rgb
+Xft.dpi: 180
+
+URxvt.scrollBar:           false
+URxvt.saveLines:           8192
+URxvt.internalBorder:      15
+URxvt.externalBorder:      0
+URxvt.highlightSelection:  true
+URxvt.loginShell:          true
+URxvt.termName:            xterm-256color
+URxvt.letterSpace:         -1
+URxvt.font:                xft:Consolas:size=11, xft:Inconsolata for Powerline
+URxvt.boldFont:            xft:Consolas:size=11, xft:Inconsolata for Powerline:style=Bold
+!URxvt.depth: 32
+
+
+! Colors {{{
+
+! special
+!*.foreground:   #f0f0f0
+!*.background:   #232c33
+!*.cursorColor:  #f0f0f0
+
+! black
+! Second black is grey
+!*.color0:       #232c33
+!*.color8:       #70838c
+
+! red
+!*.color1:       #99736e
+!*.color9:       #99736e
+
+! green
+!*.color2:       #78a090
+!*.color10:      #78a090
+
+! yellow
+!*.color3:       #bfb7a1
+!*.color11:      #bfb7a1
+
+! blue
+!*.color4:       #7c9fa6
+!*.color12:      #7c9fa6
+
+! magenta
+!*.color5:       #BF9C86
+!*.color13:      #BF9C86
+
+! cyan
+!*.color6:       #99BFBA
+!*.color14:      #99BFBA
+
+! white
+!*.color7:       #f0f0f0
+!*.color15:      #f0f0f0
+
+! MEME COLORS LOL
+! special
+*.foreground:   #9064b2
+*.background:   #2a2c37
+*.cursorColor:  #9064b2
+
+! black
+*.color0:       #232c33
+*.color8:       #70838c
+
+! red
+*.color1:       #716dd0
+*.color9:       #716dd0
+
+! green
+*.color2:       #b7accf
+*.color10:      #b7accf
+
+! yellow
+*.color3:       #ff83cd
+*.color11:      #ff83cd
+
+! blue
+*.color4:       #6d92ee
+*.color12:      #6d92ee
+
+! magenta
+*.color5:       #76bad1
+*.color13:      #76bad1
+
+! cyan
+*.color6:       #99bfba
+*.color14:      #99bfba
+
+! white
+*.color7:       #f0f0f0
+*.color15:      #f0f0f0
+
+
+! Enables copy/paste with Ctrl-Shift-C/V
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: default,clipboard
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt.keysym.C-0: command:\033]50;-gohu-*-medium-*-*-*-14-*-*-*-*-*-*-*\007\033]711;-gohu-*-bold-*-*-*-14-*-*-*-*-*-*-*\007
+URxvt.keysym.C-1: command:\033]50;-gohu-*-medium-*-*-*-11-*-*-*-*-*-*-*\007\033]711;-gohu-*-bold-*-*-*-11-*-*-*-*-*-*-*\a
+URxvt.keysym.C-2: command:\033]50;xft: DejaVu Sans Mono:pixelsize=15:antialias=false\007\033]711;xft: DejaVu Sans Mono:pixelsize=15:style=Bold:antialias=false\007
