@@ -87,3 +87,4 @@ alias rec="ffmpeg -f x11grab -s 2560x1580 -an -i :0.0 -c:v libvpx -b:v 5M -crf 1
 alias fetch="neofetch"
 alias rice="/home/nobu/rice/Scripts/rice.sh"
 alias memefetch="screenfetch -D 'apple operating system x' -A 'Mac OS X'"
+alias colors="/home/nobu/rice/Scripts/colors.sh"

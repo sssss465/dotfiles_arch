@@ -14,8 +14,8 @@ URxvt.highlightSelection:  true
 URxvt.loginShell:          true
 URxvt.termName:            xterm-256color
 URxvt.letterSpace:         -1
-URxvt.font:                xft:Consolas:size=11, xft:Inconsolata for Powerline
-URxvt.boldFont:            xft:Consolas:size=11, xft:Inconsolata for Powerline:style=Bold
+URxvt.font:                xft:profont:size=10:antialias=false, xft:Inconsolata for Powerline
+URxvt.boldFont:            xft:profont:size=10:antialias=false, xft:Inconsolata for Powerline:style=Bold
 !URxvt.depth: 32
 
 
@@ -61,42 +61,75 @@ URxvt.boldFont:            xft:Consolas:size=11, xft:Inconsolata for Powerline:s
 
 ! MEME COLORS LOL
 ! special
-*.foreground:   #FFFFFF
-*.background:   #2a2c37
-*.cursorColor:  #FFFFFF
+!*.foreground:   #FFFFFF
+!*.background:   #2a2c37
+!*.cursorColor:  #FFFFFF
 
 ! black
-*.color0:       #232c33
-*.color8:       #70838c
+!*.color0:       #232c33
+!*.color8:       #70838c
 
 ! red
-*.color1:       #716dd0
-*.color9:       #716dd0
+!*.color1:       #716dd0
+!*.color9:       #716dd0
 
 ! green
-*.color2:       #b7accf
-*.color10:      #b7accf
+!*.color2:       #b7accf
+!*.color10:      #b7accf
 
 ! yellow
-*.color3:       #ff83cd
-*.color11:      #ff83cd
+!*.color3:       #ff83cd
+!*.color11:      #ff83cd
 
 ! blue
-*.color4:       #6d92ee
-*.color12:      #6d92ee
+!*.color4:       #6d92ee
+!*.color12:      #6d92ee
 
 ! magenta
-*.color5:       #76bad1
-*.color13:      #76bad1
+!*.color5:       #76bad1
+!*.color13:      #76bad1
 
 ! cyan
-*.color6:       #99bfba
-*.color14:      #99bfba
+!*.color6:       #99bfba
+!*.color14:      #99bfba
 
 ! white
-*.color7:       #f0f0f0
-*.color15:      #f0f0f0
+!*.color7:       #f0f0f0
+!*.color15:      #f0f0f0
 
+#define bg    #37273a
+#define fg    #c3bec3
+#define blk   #453149
+#define bblk  #5e5261
+#define red   #9c595c
+#define grn   #8ba07a
+#define ylw   #b3a67d
+#define blu   #7B6677
+#define mag   #83466D
+#define cyn   #899079
+#define wht   #c3bec3
+
+! Colors - wintry
+*background:   bg
+*foreground:   fg
+*cursorColor:  cyn
+
+*color0:      blk
+*color8:      bblk
+*color1:      red
+*color9:      red
+*color2:      grn
+*color10:     grn
+*color3:      ylw
+*color11:     ylw
+*color4:      blu
+*color12:     blu
+*color5:      mag
+*color13:     mag
+*color6:      cyn
+*color14:     cyn
+*color7:      wht
+*color15:     wht
 
 ! Enables copy/paste with Ctrl-Shift-C/V
 URxvt.iso14755: false
